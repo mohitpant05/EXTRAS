@@ -1,0 +1,22 @@
+Windows Product Key is a unique key for each customer. This key is used to activate your Windows operating system. You can find your keys by following steps or can use the third party softwares as below
+
+cmd command to find installed product key  :  wmic path softwareLicensingService get OA3xOriginalProductKey
+powershell command to find installed product key : powershell "(Get-WmiObject -query 'select * from SoftwareLicensingService').OA3xOriginalProductKey"
+
+Using registery editor
+
+Run registry editor as administrator
+
+Open the HKEY_LOCAL_MACHINE folder.
+Open the SOFTWARE folder.
+Open the Microsof folder.
+Open the Windows NT folder
+Open the CurrentVersion folder.
+Open the SoftwareProtectionPlatform folder.
+
+Now you will be able to see BackupProductKeyDefault on the right panel of the registry editor now double click on it and see the product key
+
+Or we can use Third party softwares like produkey showKeyPlus and MagicalJellyBean which are product key finder to find the product key of your Windows operating system
+
+
+
