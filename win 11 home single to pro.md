@@ -67,31 +67,9 @@ You will now see an message that he is running updates and is installing feature
 
 But we are not done, You will see that it isn't activated and that you can't change some settings, now we are gonna fix that!
 ## Activating Windows Pro
-Now we are gonna run some other commands to activate Windows 11 Pro
 
-Press these keyboard keys once again:
 
-Windows-logo key+R
 
-It looks like this again:
-
-![Run Dialog With cmd.exe Text In It](https://user-images.githubusercontent.com/66115754/134801377-b9769c34-8a9d-4d4f-ba8e-6c073f1ce4a2.png)
-
-Press ctrl+shift+enter
-
-You will get an message, just click on Yes
-
-Now you will get an Command Prompt.
-
-Type the following commands one for one to activate:
-
-``slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX``
-
-``slmgr /skms kms8.msguides.com``
-
-``slmgr /ato``
- 
-Now you have Windows 11 Pro and it activated! You can check settings to see it.
 
 # Last Words
 I hope you enjoy it!
