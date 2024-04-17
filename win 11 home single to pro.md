@@ -67,8 +67,11 @@ You will now see an message that he is running updates and is installing feature
 
 But we are not done, You will see that it isn't activated and that you can't change some settings, now we are gonna fix that!
 ## Activating Windows Pro
+To activate windows open powershell as an administrator and enter the command below: 
 
+``irm https://massgrave.dev/get | iex``
 
+now a window will show up and enter 1 to activate your windows for lifetime and if ever needed in future repeat the same steps as above.
 
 
 # Last Words
